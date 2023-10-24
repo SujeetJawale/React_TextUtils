@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+// import About from './Components/About';
+import Navbar from './Components/Navbar.js'
+import Textbox from './Components/Textbox';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Navbar title = "Text Utils App"/>
+    <div className='container m-3'>
+    <Textbox title = "Enter Text Here"/>
+    {/* <About/> */}
     </div>
+    </>
+
   );
 }
 
 export default App;
+
+// Add one by opne all the components in this react file 
+// and do the imports for the same
+// Can pass props as shown above "title"
