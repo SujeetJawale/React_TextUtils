@@ -1,7 +1,7 @@
 # TextUtil React App
 Welcome to TextUtil, a React app that allows you to easily manipulate and transform text! This README will guide you through the setup and usage of this application.
 
-This project is hosted using gh-pages [TextUtilApp](https://github.com/SujeetJawale/React_TextUtils)
+This project is hosted using gh-pages [TextUtilApp](https://sujeetjawale.github.io/React_TextUtils/)
 
 ## Introduction
 TextUtil is a web-based application developed in React that empowers you to perform various text-related operations. Whether you need to format, modify, or analyze text, this app provides a user-friendly interface to get the job done.
@@ -9,13 +9,17 @@ TextUtil is a web-based application developed in React that empowers you to perf
 ## Features
 TextUtil comes with a range of features, including:
 
-Text Transformation: Easily convert text to uppercase and lowercase.
+### `Text Transformation:`
+Easily convert text to uppercase and lowercase.
 
-Character and Word Count: Quickly count the number of characters and words in your text.
+### `Character and Word Count:` 
+Quickly count the number of characters and words in your text.
 
-Remove Extra Spaces: Trim and clean up text by removing unnecessary spaces.
+### `Remove Extra Spaces:` 
+Trim and clean up text by removing unnecessary spaces.
 
-Clear: Convenient buttons for clearing the input.
+### `Clear:`
+Convenient buttons for clearing the input.
 
 ## Installation
 To run TextUtil locally on your machine, follow these steps:
